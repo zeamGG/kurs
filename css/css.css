@@ -1,0 +1,375 @@
+.mySlides {display:none;}
+button{
+  margin: auto;
+}
+#jeden{
+  position: absolute;
+  left: 0px;
+  top:-200px
+}
+#dwa{
+  position: absolute;
+  right: 0px;
+  top:-200px
+}
+#poziomowanie{
+  position: relative;
+  width: 760px;
+  margin: auto;
+} 
+
+
+
+html::-webkit-scrollbar {
+  width: 20px;
+}
+    
+html::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-image: url("https://i.ibb.co/5150925/tracks.png");
+  background-position: -5px;
+  background-repeat: repeat-y;
+  background-size: 50px;
+}
+ 
+html::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+background-image: url("https://i.ibb.co/q95CBdZ/train.png");
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size: 35px;
+}
+html{
+  width: 100%;
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: white;
+  }
+*{
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Play', sans-serif;
+}
+
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+  }
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 14px;
+    display: inline;
+  }
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 14px;
+    height: 5px;
+    display: inline;
+  }
+  .menu ul li a:hover{
+    color:gray;
+    transition-duration: 0.2s;
+  }
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding:0px;
+    margin: 0px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding:0px;
+    margin: 0px;
+}
+.header h1{
+    text-align: center;
+    font-size: 50px;
+    padding:0px;
+    margin: 0px;
+    display: inline;
+    margin-right: 50px;
+}
+nav.menu{
+    display: inline;
+    font-size: 10px;
+}
+p{
+    width: 900px;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+}
+hr{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+}
+code{
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    display: block;
+    text-align: left;
+    overflow: scroll;
+}
+.efekt{
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    overflow: scroll;
+}
+table,tr,td,th{
+  border: 1px solid black;
+  margin: auto;
+}
+#indexy{
+  position:relative;
+  top:-50px;
+  left:400px;
+  z-index: -1;
+  width: 80px;
+  height: 80px;
+  
+  
+}
+#razem{
+  margin: auto;
+}
+#indexi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+input,label{
+  text-align: center;
+  margin-left: 340px;
+  border-radius: 10px;
+  }
+select,optgroup,option{
+  border-radius: 10px;
+}
+#htmlik{
+  margin: auto;
+ 
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+#animacja {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin: auto;  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:-300px; top:0px;}
+  50%  {background-color:yellow; left:300px; top:0px;}
+  100% {background-color:blue; left:-300px; top:0px;}
+}
+#dlugi{
+  width: 960px;
+}
+
+
+
+@media only screen and (max-width: 1175px) {
+  p {
+    font-size: 10px;
+    width: 500px;
+  }
+  .content{
+    width: 600px;
+  }
+  .header{
+    width: 100%;
+  }
+  input,label{
+    text-align: center;
+    margin-left: 140px;
+    border-radius: 10px;
+    }
+  select,optgroup,option{
+    border-radius: 10px;
+  }
+  .efekt{
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 100px;
+    width: 600px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    overflow: scroll;
+}
+  code{
+    width: 600px;
+  }
+  #indexy{
+    position:relative;
+    top:-50px;
+    left:200px;
+    z-index: -1;
+    width: 80px;
+    height: 80px;
+    
+    
+  }
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    box-shadow: none;
+    z-index: 999;
+  }
+  
+
+  .menu {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+
+.menu ul li {
+    display: block;
+    display: block;
+  }
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    display: block;
+    border-bottom: 1px solid black;
+  }
+  .menu ul li a:hover{
+    color:gray;
+    transition-duration: 0.2s;
+  }
+  .header h1{
+    text-align: center;
+    font-size: 50px;
+    padding:0px;
+    margin: 0px;
+    display: inline;
+  }
+  #poziomowanie{
+    position: relative;
+    width: 477px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 0px;
+  }
+  button{
+    margin: auto;
+  }
+  #jeden{
+    float: left;
+  }
+  #dwa{
+    float: right;
+  } 
+}
+
+.content .menu {
+  list-style: none;
+  padding: 0;
+  background-color: lightgray;
+  width: 250px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.menu > li {
+  display: inline-block;
+  position: relative;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.menu > li > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  background-color: lightgray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.menu > li:hover > ul {
+  display: block;
+  background-color: lightgray;
+}
