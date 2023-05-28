@@ -332,6 +332,9 @@ img{
   #dwa{
     float: right;
   } 
+  #dlugi{
+  width: 460px;
+}
 }
 
 .content .menu {
